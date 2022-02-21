@@ -4,6 +4,11 @@ require 'sinatra/reloader'
 require_relative './lib/peep'
 require_relative './lib/user.rb'
 
+# REFACTORING needed here!!
+# 1. There's too make session variables and I do not need them all at all
+# 2. I think there's validation and stuff that can be pushed into the Model!!
+# 3. Plus plus plus
+
 class ChitterManager < Sinatra::Base
   configure :development do
     register Sinatra::Reloader

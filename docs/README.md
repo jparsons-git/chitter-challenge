@@ -10,3 +10,10 @@ Weekend challenge Week 4
 ## Creators
 
 Jane
+
+# TODO's
+* Very naughtily, I have no rspecs!! Big big BIG TODO
+* It's working, but there's some refactoring requiired
+
+
+

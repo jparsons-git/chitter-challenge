@@ -39,7 +39,6 @@ class Peep
     current_time.strftime "%Y.%m.%d %H:%M" + ":00"
     date = current_time.strftime "%Y.%m.%d %H:%M" + ":00"
 
-
     connection.exec_params(
       result = "INSERT INTO peeps (details, date, userid, username) VALUES ($1, $2, $3, $4) RETURNING id, details, date, userid, username;",
       [details, date, userid, username])
