@@ -6,6 +6,11 @@ group :test do
   gem 'rspec'
   gem 'simplecov', require: false
   gem 'simplecov-console', require: false
+  gem 'capybara'
+  gem "sinatra"
+  gem "sinatra-contrib"
+  gem 'pg'
+  gem "webrick"
 end
 
 group :development, :test do
